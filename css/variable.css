@@ -1,9 +1,9 @@
 @import url(./converter.css);
 @import url(./fonts/);
 :root{
-    --corFundo:#DFF2EB;
-    --corBack:#242424;
-    --corButton:#4E31AA;
+    --corFundo:#b1b1b1;
+    --corBack:#e7e7e7;
+    --corButton:#000000;
     --corHover:#DBAFA0;
     --lightFont:#fafafa;
     --darkFont:#000;
