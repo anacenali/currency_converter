@@ -19,3 +19,8 @@ Este projeto é uma aplicação web de conversão de moedas em tempo real, que p
 3. Clique em **Converter** para obter o valor convertido.
 4. Utilize o botão **Limpar** para redefinir todos os campos.
 
+## Contatos
+
+Este projeto foi desenvolvido em colaboração com um colega de turma, com o auxilio do professor [Leonardo Rocha](https://github.com/leonardossrocha) combinando esforços para a construção de uma aplicação de conversão de moedas.
+
+* [Chrystian Almeida](https://github.com/ESChrystian/)
