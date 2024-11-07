@@ -14,7 +14,7 @@ Este projeto é uma aplicação web de conversão de moedas em tempo real, que p
 
 ## Como Usar o Projeto
 
-1. Abra o arquivo [converter.html]() em um navegador web.
+1. Abra o arquivo [converter.html](http://127.0.0.1:5500/converter.html) em um navegador web.
 2. Insira o valor, selecione a moeda de origem e a moeda de destino.
 3. Clique em **Converter** para obter o valor convertido.
 4. Utilize o botão **Limpar** para redefinir todos os campos.
