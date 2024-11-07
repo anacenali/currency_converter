@@ -1,6 +1,6 @@
 /* Importação de paleta de cores e fontes */
-@import url(./variables.css);
-@import url(./fonts/);
+@import url(variable.css);
+@import url(fonts/);
 
 * {
     /* Remove bordas e espaçamentos padrões dos elementos */
