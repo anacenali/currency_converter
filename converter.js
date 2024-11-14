@@ -1,5 +1,5 @@
-const apiKey = '7b0b4a851916cae1c4aecb84';
-const apiURL = ` https://v6${apiKey}.exchangerate-api.com/v6/7b0b4a851916cae1c4aecb84/latest/`;
+const apiKey = '087ef5ce0c86015123b35ace';
+const apiURL = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/`;
 
 //função para consulta á taxa de câmbio via API
 
@@ -7,7 +7,7 @@ async function getExchangeRate(ofcoins, forcoins) {
     try {
 
         const response = await fetch(`${apiURL}${ofcoins}`);
-        const data = response.json();
+        const data = await response.json();
 
         if (data.result === "success") {
             return data.conversion_rates[forcoins];
@@ -29,9 +29,9 @@ document.getElementById('Form-convert').addEventListener('submit', async functio
     event.preventDefault();
 
     // Obter valores de entrada
-    const valor = parseFloat(document.getElementById('amount').value);
-    const ofcoins = document.getElementById('ofcoins').value;
-    const forcoins = document.getElementById('forcoins').value;
+    const valor = parseFloat(document.getElementById('value-amount').value);
+    const ofcoins = document.getElementById('ofCoins').value;
+    const forcoins = document.getElementById('forCoins').value;
 
     // variavel que vai receber o valor da API
     const exchangeRate = await getExchangeRate(ofcoins, forcoins);
@@ -43,6 +43,13 @@ document.getElementById('Form-convert').addEventListener('submit', async functio
         // console.log(convertedValue);
         
         const conversao = document.getElementById('conversao');
-        conversao.textContent = `Resultado: ${convertedValue.toFixed(2)} ${forcoins};` // para aparecer apenas dois digitos
-    }
+        conversao.textContent = `Resultado: ${convertedValue.toFixed(2)}${forcoins};` // para aparecer apenas dois digitos
+   
+
+          // Configura o botão para executar a conversão
+ 
+        } else{
+            alert('Erro ao buscar a cotação. Tente novamente');
+        }
+     
 })
