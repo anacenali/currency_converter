@@ -1,5 +1,7 @@
 # Currency converter
-Este projeto é uma aplicação web de conversão de moedas em tempo real, que permite ao usuário inserir um valor e converter entre diferentes moedas. A interface é simples e interativa, desenvolvida com HTML, CSS e JavaScript.
+
+## Descrição
+Este é um projeto de Conversor de Moedas simples e funcional. Ele utiliza a Exchangerate-API para consultar taxas de câmbio em tempo real e calcular a conversão entre moedas selecionadas pelo usuário.
 
 ## Funcionalidades
 - Conversão de valores entre quatro moedas: Real Brasileiro (BRL), Dólar Americano (USD), Euro (EUR) e Libra Esterlina (GBP).
