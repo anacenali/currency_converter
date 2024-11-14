@@ -1,7 +1,7 @@
 # Currency converter
 
 ## Descrição
-Este é um projeto de Conversor de Moedas simples e funcional. Ele utiliza a Exchangerate-API para consultar taxas de câmbio em tempo real e calcular a conversão entre moedas selecionadas pelo usuário.
+Este é uma evolução do projeto anterior [Simple converter](https://github.com/anacenali/Simple-converter). Seu objetivo é oferecer uma aplicação web moderna e funcional, permitindo que os usuários convertam valores entre diferentes moedas. Ele foi criado utilizando HTML5, CSS3, e JavaScript puro, destacando-se pela simplicidade e eficiência. A principal melhoria em relação ao projeto anterior é a integração com uma API de câmbio, que permite consultar as taxas de conversão em tempo real. Isso garante que as cotações utilizadas sejam sempre precisas e atualizadas, refletindo as variações do mercado financeiro de forma dinâmica e confiável. Com esta evolução, o projeto torna-se não apenas mais prático, mas também mais próximo de uma aplicação real, capaz de atender a demandas cotidianas dos usuários.
 
 ## Funcionalidades
 - Conversão de moedas em tempo real usando uma API externa.
