@@ -9,10 +9,37 @@ Este é um projeto de Conversor de Moedas simples e funcional. Ele utiliza a Exc
 - Interface intuitiva com campos de entrada e seleção.
 - Botões para converter e limpar os dados.
 
+## Tecnologias utilizadas
+
+- HTML5: Estruturação da página.
+- CSS3: Estilização e layout responsivo.
+- JavaScript: Lógica da aplicação e consumo da API.
+
 - **converter.html**: Contém a estrutura HTML da aplicação.
 - **converter.css**: Estilização principal para layout e formatação.
 - **converter.js**: Script de JavaScript para manipulação de eventos e cálculo da conversão.
 - **variables.css** e **fonts/**: Arquivos adicionais para variáveis de estilo e fontes personalizadas.
+
+## Pré-requisitos
+
+- Navegador moderno compatível com JavaScript.
+- Conexão com a internet para acessar a API.
+
+## Estrutura do Projeto
+
+``` 
+/
+├── index.html         # Página principal
+|
+├── css/
+│   ├── converter.css  # Estilização principal
+│   ├── variable.css   # Variáveis de cores e fontes
+├── fonts/
+│   ├── Mulish-Medium.ttf
+│   ├── Mulish-Light.ttf
+│   └── Mulish-Bold.ttf
+├── converter.js       # Script JavaScript 
+```
 
 ## Como Usar o Projeto
 
