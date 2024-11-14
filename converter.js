@@ -1,20 +1,29 @@
+// Chave de autenticação para acessar a API de taxas de câmbio.
 const apiKey = '087ef5ce0c86015123b35ace';
-const apiURL = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/`;
+
+//URL da API que inclui a chave. Esta URL será complementada com o código da moeda de origem durante a consulta.
+const apiURL = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/`; 
 
 //função para consulta á taxa de câmbio via API
 
 async function getExchangeRate(ofcoins, forcoins) {
     try {
 
+        // Faz uma requisição à API para obter a taxa de câmbio da moeda de origem.
         const response = await fetch(`${apiURL}${ofcoins}`);
+    
+        // Converte a resposta para JSON 
         const data = await response.json();
 
+    // Verifica se o resultado é "success".
         if (data.result === "success") {
             return data.conversion_rates[forcoins];
 
         } else {
             throw new Error('Erro ao buscar taxa de câmbio');
         }
+
+        // Captura qualquer erro na requisição ou processamento e retorna
     } catch (error) {
         console.error("Erro:", error);
         return null;
