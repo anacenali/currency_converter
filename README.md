@@ -4,10 +4,10 @@
 Este é um projeto de Conversor de Moedas simples e funcional. Ele utiliza a Exchangerate-API para consultar taxas de câmbio em tempo real e calcular a conversão entre moedas selecionadas pelo usuário.
 
 ## Funcionalidades
-- Conversão de valores entre quatro moedas: Real Brasileiro (BRL), Dólar Americano (USD), Euro (EUR) e Libra Esterlina (GBP).
-- Taxas de câmbio em tempo real.
-- Exibição do valor convertido de forma prática e intuitiva.
-- Botão de limpeza para redefinir os campos.
+- Conversão de moedas em tempo real usando uma API externa.
+- Suporte para as moedas: Real (BRL), Dólar (USD), Euro (EUR) e Libra (GBP).
+- Interface intuitiva com campos de entrada e seleção.
+- Botões para converter e limpar os dados.
 
 - **converter.html**: Contém a estrutura HTML da aplicação.
 - **converter.css**: Estilização principal para layout e formatação.
