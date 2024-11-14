@@ -15,6 +15,8 @@ Este é um projeto de Conversor de Moedas simples e funcional. Ele utiliza a Exc
 - CSS3: Estilização e layout responsivo.
 - JavaScript: Lógica da aplicação e consumo da API.
 
+---------
+
 - **converter.html**: Contém a estrutura HTML da aplicação.
 - **converter.css**: Estilização principal para layout e formatação.
 - **converter.js**: Script de JavaScript para manipulação de eventos e cálculo da conversão.
