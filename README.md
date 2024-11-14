@@ -41,6 +41,26 @@ Este é um projeto de Conversor de Moedas simples e funcional. Ele utiliza a Exc
 ├── converter.js       # Script JavaScript 
 ```
 
+## Código
+### HTML
+
+A estrutura principal da página está no arquivo index.html. Ele define:
+
+- Um formulário com campos para valor, moedas e botões.
+- Uma div para exibir os resultados.
+
+### JavaScript
+O arquivo converter.js contém:
+
+1. Uma função assíncrona que:
+- Consulta a API com a moeda de origem.
+- Retorna a taxa de conversão.
+2. Um evento para submeter o formulário e calcular o valor convertido.
+
+### CSS
+- converter.css: Define o layout, estilos dos campos, botões e animações.
+- variable.css: Contém variáveis para facilitar personalizações.
+
 
 ## Como Usar o Projeto
 
