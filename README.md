@@ -41,12 +41,17 @@ Este é um projeto de Conversor de Moedas simples e funcional. Ele utiliza a Exc
 ├── converter.js       # Script JavaScript 
 ```
 
+
 ## Como Usar o Projeto
 
 1. Abra o arquivo [converter.html](http://127.0.0.1:5500/converter.html) em um navegador web.
 2. Insira o valor, selecione a moeda de origem e a moeda de destino.
 3. Clique em **Converter** para obter o valor convertido.
 4. Utilize o botão **Limpar** para redefinir todos os campos.
+
+## Imagem do site 
+
+![](Captura%20de%20tela%202024-11-14%20080136.png)
 
 ## Contatos
 
